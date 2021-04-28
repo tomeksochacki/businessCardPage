@@ -1,0 +1,61 @@
+#logo{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto 30px;
+    display: block;
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu a{
+    color: black;
+    background: white;
+    text-decoration: none;
+    border: solid red 2px;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 0 15px;
+    transitions: color 0.5s;
+    transitions: background 0.5s;
+}
+
+#menu a:hover{
+    color: white;
+    background: red;
+}
+
+#content {
+    font-size: 28px;
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.p3{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
